@@ -1,0 +1,27 @@
+.inputClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;       /* space between input and button */
+  padding: 10px;
+}
+
+.inputClass input {
+  padding: 10px;
+  font-size: 20px;
+  flex: 1;         /* makes input stretch */
+  max-width: 500px; /* optional */
+}
+
+.inputClass button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.inputClass button:hover {
+  background: #0056b3;
+}

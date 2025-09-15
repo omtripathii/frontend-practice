@@ -1,0 +1,39 @@
+.todoclass {
+  display: flex;
+  flex-direction: column; /* stack heading + list vertically */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.todoclass ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.todoclass li {
+  display: flex;
+  justify-content: space-between; /* text left, button right */
+  align-items: center;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.todoclass li button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.todoclass li button:hover {
+  background: darkred;
+}
